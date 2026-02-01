@@ -1,4 +1,4 @@
-from app.calculator import add, sub
+from app.calculator import add, sub, mul
 
 
 def test_add():
@@ -7,3 +7,7 @@ def test_add():
 
 def test_sub():
     assert sub(5, 2) == 3
+
+
+def test_mul():
+    assert mul(2, 4) == 8
